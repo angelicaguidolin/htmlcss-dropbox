@@ -28,8 +28,14 @@
 }
 li{
     list-style: none;
+    padding: 10px 2px;
 }
-
+br{
+ margin-bottom: 50px;
+}
+.blu-check{
+    color: #0360FE;
+}
 /*----------------
     LAYOUT
 ------------------*/
@@ -42,7 +48,7 @@ li{
     padding-right: 20px; */
 }
 .container-small{
-    max-width: 1000px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 
@@ -74,8 +80,11 @@ body {
 }
 .big-title{
     font-size: 50px;
-    
+    margin-top: 60px;
     text-align: left;
+}
+h2{
+    font-size: 30px;
 }
 
 /*----------------
@@ -95,7 +104,7 @@ body {
 }
 
 .btn-primary {
-    background-color: lightcoral;
+    background-color:#0360FE;
     color: #fff;
 }
 .btn-blu{
@@ -115,6 +124,9 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 } 
 .left-banner{
     display: flex;
@@ -123,7 +135,7 @@ body {
     margin-left: 20px;
 }
 
-a{
+.header-banner  a{
     text-decoration: none;
     color: black;
 }
@@ -148,6 +160,7 @@ a{
     margin-top: 20px;
 }
 .text-hero{
+   
     text-align: left;
     font-size: 16px;
 }
@@ -156,8 +169,8 @@ a{
     margin-bottom: 15px;
 }
 .arrow-hero{
-    margin-top: 30px;
-    font-size: 40px;
+    margin-top: 25px;
+    font-size: 45px;
     text-align: left;
 }
 .col-big-hero{
@@ -170,8 +183,41 @@ a{
     position: relative;
     bottom: -75px;
 }
+.empty-sect{
+    padding-bottom: 100px;
+}
 
+/*----------------
+  SECTION 1 MAIN
+------------------*/
+.col-3{
+    width: calc(100% / 3);
+    padding-top: 40px;
 
+}
+.list-buisness{
+    border: 1px solid black;
+    padding: 14px 14px;
+
+}
+.utente{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.info-col{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.info-col li{
+    padding: 20px;
+}
+.space-bt{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.final-part{
+    padding-bottom: 80px;
+}
 /*----------------
     FOOTER
 ------------------*/
