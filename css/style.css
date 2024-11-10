@@ -191,11 +191,13 @@ h2{
   SECTION 1 MAIN
 ------------------*/
 .col-3{
+    
     width: calc(100% / 3);
     padding-top: 40px;
 
 }
 .list-buisness{
+    
     border: 1px solid black;
     padding: 14px 14px;
 
@@ -203,6 +205,7 @@ h2{
 .utente{
     text-align: center;
     padding-bottom: 10px;
+   
 }
 .info-col{
     padding-top: 20px;
@@ -216,7 +219,11 @@ h2{
     padding-top: 20px;
 }
 .final-part{
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+}
+.invoce{
+    display: flex;
+    padding-bottom: 30px;
 }
 /*----------------
     FOOTER
