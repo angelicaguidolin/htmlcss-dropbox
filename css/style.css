@@ -113,6 +113,11 @@ h2{
    border: none;
    padding: 6px 12px;
 }
+.btn-position{
+    position: absolute;
+    top: 20px;
+    right: 2px;
+}
 
 /*----------------
     HEADER
@@ -210,14 +215,16 @@ h2{
 .info-col{
     padding-top: 20px;
     padding-bottom: 40px;
+    position: relative;
 }
 .info-col li{
     padding: 20px;
 }
 .space-bt{
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
+
 .final-part{
     padding-bottom: 40px;
 }
@@ -225,6 +232,8 @@ h2{
     display: flex;
     padding-bottom: 30px;
 }
+
+
 /*----------------
     FOOTER
 ------------------*/
