@@ -80,6 +80,9 @@ hr{
 .gap-30 {
     gap: 30px;
 }
+.gap-40 {
+    gap: 40px;
+}
 
 .col {
     flex-grow: 1;
@@ -125,6 +128,7 @@ h2{
    color: #fff;
    border: none;
    padding: 6px 12px;
+   
 }
 .btn-position{
     position: absolute;
@@ -144,6 +148,7 @@ h2{
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
     justify-content: space-between;
     align-items: center;
     gap: 30px;
