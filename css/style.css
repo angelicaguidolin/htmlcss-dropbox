@@ -43,6 +43,7 @@ br{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 /*----------------
     LAYOUT
 ------------------*/
@@ -86,7 +87,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .big-title{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 60px;
     text-align: left;
 }
@@ -203,6 +204,9 @@ h2{
 .empty-sect{
     padding-bottom: 100px;
 }
+.empty-sect-2{
+    padding-bottom: 50px;
+}
 .fatturazione{
     display: flex;
  gap: 6px;
@@ -266,7 +270,20 @@ h2{
     padding: 40px;
    
 }
+/*----------------
+  SECTION 3 MAIN
+------------------*/
+.specif {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 35px;
+}
+.col-5{
+    width: calc(100% /3);
+    position: relative;
+}
 
 /*----------------
     FOOTER
 ------------------*/
+
