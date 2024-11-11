@@ -36,6 +36,13 @@ br{
 .blu-check{
     color: #0360FE;
 }
+.list-icon{
+    padding-right: 6px;
+}
+.p-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /*----------------
     LAYOUT
 ------------------*/
@@ -118,6 +125,11 @@ h2{
     top: 20px;
     right: 2px;
 }
+.btn-trasp{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
 
 /*----------------
     HEADER
@@ -191,7 +203,24 @@ h2{
 .empty-sect{
     padding-bottom: 100px;
 }
+.fatturazione{
+    display: flex;
+    gap: 40px;
+    
 
+}
+.radius-check{
+   width: 20px; 
+   height: 20px;
+   border: 1px solid black;
+   border-radius: 100%;
+}
+.radius-blu{
+    background-color: #0360FE;
+}
+.text-radius{
+    margin-left: 27px;
+}
 /*----------------
   SECTION 1 MAIN
 ------------------*/
@@ -232,7 +261,21 @@ h2{
     display: flex;
     padding-bottom: 30px;
 }
-
+/*----------------
+  SECTION 2 MAIN
+------------------*/
+.sect-2{
+    display: flex;
+}
+.col-4{
+    width: 60%;
+}
+.col-4-small{
+    width: 40%;
+    align-content:center ;
+    padding: 40px;
+   
+}
 
 /*----------------
     FOOTER
