@@ -205,22 +205,12 @@ h2{
 }
 .fatturazione{
     display: flex;
-    gap: 40px;
+ gap: 6px;
+ padding-bottom: 30px;
     
 
 }
-.radius-check{
-   width: 20px; 
-   height: 20px;
-   border: 1px solid black;
-   border-radius: 100%;
-}
-.radius-blu{
-    background-color: #0360FE;
-}
-.text-radius{
-    margin-left: 27px;
-}
+
 /*----------------
   SECTION 1 MAIN
 ------------------*/
