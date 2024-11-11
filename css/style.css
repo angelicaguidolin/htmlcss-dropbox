@@ -43,7 +43,12 @@ br{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+hr{
+    color: #9C9B9A;
+}
+#color-p{
+    color: #000000;
+}
 /*----------------
     LAYOUT
 ------------------*/
@@ -226,9 +231,15 @@ h2{
 }
 .list-buisness{
     
-    border: 1px solid black;
+    border: 1px solid #9C9B9A;
     padding: 14px 14px;
 
+}
+.list-buisness .hr-short{
+    color:#9C9B9A ;
+}
+.list-buisness p{
+    color: #9C9B9A ;
 }
 .utente{
     text-align: center;
@@ -276,7 +287,7 @@ h2{
 .specif {
     margin-bottom: 40px;
     display: flex;
-    gap: 35px;
+    gap: 84px;
 }
 .col-5{
     width: calc(100% /3);
@@ -286,4 +297,30 @@ h2{
 /*----------------
     FOOTER
 ------------------*/
+.footerback{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    padding: 16px 0px;
+  
+}
+.col-footer{
+    margin-top: 30px;
+    margin-bottom: 17px;
+    width:  calc(100% /5);
+    color: #fff;
+}
+.hr-short{
+    color: #fff;
+    width: 25%;
+}
+.col-footer li{
+    font-size: 12px;
+}
+.eart{
+    color: #9C9B9A;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+}
 
