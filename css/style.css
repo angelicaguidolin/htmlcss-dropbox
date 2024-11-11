@@ -168,7 +168,10 @@ h2{
     gap: 10px;
     margin-right: 20px;
 }
-
+.space-li{
+    display: flex;
+    gap: 20px;
+}
 /*----------------
     MAIN
 ------------------*/
